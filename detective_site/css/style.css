@@ -1,0 +1,444 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 11, 2020, 3:57:22 PM
+    Author     : RTMag
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+html, body {
+  background-color: black;
+  height:100vh;
+  clear: both;
+ 
+}
+
+.wrapper {
+  min-width: 1517px;
+  background-color: #12244b;
+  background-image: linear-gradient(to bottom,  #12244b, black);
+  overflow: auto;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#paragraph {
+  color: white;
+}
+
+.main-heading {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 70px;
+}
+
+main {
+  display: flex;
+  flex-grow: 2;
+  font-family: Roboto;
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 {
+  min-height: 252px;
+  clear: both;
+  min-width: 100%;
+  width: auto;
+  background-color: #f1f1f1;
+}
+
+.emblem-badge {
+  max-height: 210px;
+  max-width: 210px;
+  height: 210px;
+  width: 210px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  float: left;
+}
+
+.address {
+  color: #2b2933;
+  float: right;
+  margin-right: 150px;
+  margin-top: 40px;
+}
+
+.footer-link {
+  color: #18135b;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.search-box {
+  background-color: #343a40;
+  min-width: 800px;
+  max-width: 800px;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 10px;
+  color: white;
+}
+
+.message-box {
+  background-color: #343a40;
+  padding: 10px;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.message-div {
+  margin-bottom: 6vh;
+  color: white;
+  max-height: 70vh;
+  padding: 0;
+}
+
+.search-form {
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.submit-button {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 5px;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.submit-div{
+  height: fit-content;
+  display: flex;
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.radio-label {
+  font-size: 0.6rem;
+}
+
+.announcements > span {
+  text-align: right;
+}
+
+.main-heading {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.users-box {
+  background-color: #343a40;
+  margin-bottom: 6vh;
+  padding: 10px;
+  color: white;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 70vh;
+  border: 1px solid white;
+}
+
+.users-box > table > tbody > tr:hover {
+  background-color: #454b51;
+}
+
+.messages-page-container {
+  padding-bottom: 6vh;
+}
+
+.red-button {
+  margin: 0;
+}
+
+.black-box{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  margin: 25px 25px 25px 0;
+  text-align: center;
+  border: 4px solid #485768;
+  padding: 24px 24px 10px 24px;
+}
+
+.black-box-2{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 10px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  max-height: 70vh;
+  margin: 25px 0 25px 25px;
+  border: 4px solid #485768;
+  padding: 24px 24px 10px 24px;
+}
+
+.black-box-wide{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.black-box-wide-2{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  flex-grow: 4;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+
+.black-box-wide-3{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  flex-grow: 4;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-top: -8px;
+  margin-bottom: 0;
+}
+
+
+.black-box-announcement{
+  background-color: #343a40;
+  color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2500px;
+  padding: 30px;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  justify-content: space-between;
+  overflow: hidden;
+  height: auto;
+  margin-top: 15px;
+
+}
+
+.login-box{
+  background-color: #343a40;
+  color: white;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2500px;
+  padding: 30px;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  justify-content: space-between;
+  overflow: hidden;
+  height: auto;
+  margin-top: 15px;
+  border: 4px solid #485768;
+}
+
+.black-box-messages{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  padding: 15px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: -8px;
+  margin-bottom: 0;
+  max-height: 400px;
+}
+
+.black-box-employees{
+  background-color: #343a40;
+  color: white;
+  width: 100%;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 15px;
+}
+
+.black-box-employees > table > tbody > tr:hover{
+  background-color: #454b51;
+}
+
+.black-box-form{
+  background-color: #343a40;
+  color: white;
+  width: 50%;
+  padding: 15px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  margin-bottom:15px;
+  display: flex;
+  margin: 25px 0 25px 25px;
+  max-height: 70vh;
+  border: 4px solid #485768;
+}
+
+.tables-div{
+  margin-top: 25px;
+}
+
+.form-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.black-box-messages > table > tbody > tr:hover{
+  background-color: #454b51;
+}
+
+article{
+  padding: 0 25px 25px 25px;
+  display:flex;
+  flex-grow: 4;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.black-box-slim{
+  width:20%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.black-box-slim > h1{
+  text-align: center;
+}
+
+.module
+{
+  flex-grow:4;
+}
+
+.tab{
+  background-color: #485768;
+  color: white;
+  transition: all 1000ms;
+  margin: 0;
+}
+
+.box-container{
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#message-text-area{
+  min-width: 100%;
+}
+
+.triangle{
+  margin: 0 20px 0 15px;
+  font-size: .5em;
+  position: relative;
+  bottom: 7px;
+}
+
+.my-form-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+.inactive-link{
+  cursor: pointer;
+  color: #007bff;
+}
+
+.inactive-link:hover{
+  text-decoration: underline;
+  color: #004aee;
+}
+
+.pop-up{
+  background-color: #f1f1f1;
+  padding: 20px;
+  min-width: 500px;
+  min-height: 500px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 40%;
+  transform: translate(0, -50%);
+  border: 4px solid black;
+}
+
+.close-button{
+  position: absolute;
+  margin-left: 92%;
+  margin-top: -15px;
+  font-size: 1.5rem;
+  background: url("../images/close.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 1rem;
+  height: 1rem;
+}
+
+.add-button:hover{
+  text-decoration: none;
+}
+
+.content{
+  position: relative;
+}
